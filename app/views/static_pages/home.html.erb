@@ -1,10 +1,368 @@
+<script>
+$( ".logo" ).click(function() {
+  // $( this ).("bio").fadeIn( 500 );
+  // $( this ).("bio").fadeOut( 100 );
+  alert("hey");
+});
+</script>
+
 <style>
 body{
-	margin-top:100px;
 	margin:auto;
+	margin-top:100px;
+
 	width:900px;
-	font-family:"Monaco";
+	font-family:"Helvetica";
+	
+
 }
+.header{
+	margin-top:100px;
+	color:white;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#logo{
+	float:left;
+	font-size:80px;	
+	font-weight:600;
+}
+
+.subtitle{	
+	padding-top:30px;
+}
+
+.photo{
+	width:100%;
+	margin-top:-170px;
+	clip:rect(0px,60px,200px,0px);
+
+	
+}
+
+.photo-container{
+	top:100px;
+	width:900px;
+	height:300px;
+	overflow:hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.container{
+	margin-top:300px;
+	font-size:24px;
+	font-weight:200;
+}
+
+
+.section-header{
+	font-size:80px;
+	margin-bottom:20px;
+}
+
+.section{
+	width:100%;
+	overflow:hidden;
+	margin-bottom:50px;
+}
+
+ul, li{
+	list-style-type: none;
+	padding-left:5px;
+	margin-right:10px;
+	margin:0px;
+}
+.photo-section{
+	text-align: center;
+}
+
+li img{
+	width:250px;
+	height:250px;
+	float:left;
+	margin-right:40px;
+	margin-bottom:20px;
+}
+
+.lps li img {
+	width:125px;
+	height:125px;
+	margin-right:20px;
+}
+
+.bio{
+	position:absolute;
+	padding:10px;
+	opacity:0;	
+	height: 250px;
+	width:250px;	
+}
+
+.bio:hover{
+	z-index: 1;
+	display:inline;
+}
+
+
+.question{
+	font-weight:400;
+	padding-top:25px;
+}
+
 </style>
-<h1>TinyFund</h1>
-<h2>A TinyFund That Lasts Forever</h2>
+
+<html>
+<body>
+<div class="header">
+	<div id="logo">TinyFund</div>
+	<br>
+	<!-- <div class="subtitle">A TinyFund That Lasts Forever</div> -->
+</div>
+
+<div class="photo-container" >
+<img src="http://38.media.tumblr.com/3411e1f5d260e7194e27a982a488d86e/tumblr_n8po56QXVo1qz4mo8o2_r1_1280.jpg" class="photo" alt="http://jstn.cc/">
+</div>
+
+<div class="container">
+
+	<div class="section-header">HELLO</div>
+	<div class="section">
+
+	TinyFund is a venture capital fund that lasts forever.
+
+	</div>
+
+	<div class="section-header">TEAM</div>
+	<div class="section">
+	
+	<ul width="900">
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://tctechcrunch2011.files.wordpress.com/2011/04/lauren_leto-300x300.jpeg">
+	</li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://wesleyanargus.com/wp-content/uploads/2014/02/Tech-People_Alex-Rosen-304x304.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://photos2.meetupstatic.com/photos/event/4/e/4/a/600_276320042.jpeg"></li>	
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://newsletter.blogs.wesleyan.edu/files/2011/02/Tim-Devane-2.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+	
+	</ul>
+	</div>
+	
+
+	<div class="section-header">LIMITED PARTNERS</div>
+	<p>(Founders who invested in the fund)</p>
+	<div class="section lps">
+	
+	<ul width="900">
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://tctechcrunch2011.files.wordpress.com/2011/04/lauren_leto-300x300.jpeg">
+	</li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://wesleyanargus.com/wp-content/uploads/2014/02/Tech-People_Alex-Rosen-304x304.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://photos2.meetupstatic.com/photos/event/4/e/4/a/600_276320042.jpeg"></li>	
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://newsletter.blogs.wesleyan.edu/files/2011/02/Tim-Devane-2.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+		<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://tctechcrunch2011.files.wordpress.com/2011/04/lauren_leto-300x300.jpeg">
+	</li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://wesleyanargus.com/wp-content/uploads/2014/02/Tech-People_Alex-Rosen-304x304.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://photos2.meetupstatic.com/photos/event/4/e/4/a/600_276320042.jpeg"></li>	
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://newsletter.blogs.wesleyan.edu/files/2011/02/Tim-Devane-2.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+	
+	<li><div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://newsletter.blogs.wesleyan.edu/files/2011/02/Tim-Devane-2.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+
+	<li><div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="http://newsletter.blogs.wesleyan.edu/files/2011/02/Tim-Devane-2.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+		
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+	
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+	
+<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+	
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+	
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+	
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh3.googleusercontent.com/-LPhazYAf2ZQ/AAAAAAAAAAI/AAAAAAAAAAA/V8SxaSyHBAQ/s128-c-k/photo.jpg"></li>
+	<li>
+	<div class="bio">Lauren Leto
+	<br>Lauren is amazing. She's so so amazing. She's so so amazing. She's so so amazing. She's so so amazing.
+	</div>
+	<img src="https://lh5.googleusercontent.com/-AEQPb6oJ-uw/AAAAAAAAAAI/AAAAAAAAAAA/lV5xVGLBk1U/s128-c-k/photo.jpg"></li>
+	
+	</ul>
+	</div>
+
+	<div class="section-header">FAQ</div>
+	<div class="section">
+
+	<p class="question" style="padding-top:0;">What is the purpose of TinyFund?</p> 
+	<p>TinyFund is a sustainable vehicle for uncomfortably early investing.</p>
+
+	<p class="question">Yea, but what is TinyFund?</p> 
+	<p>TinyFund is a VC fund that invests $25,000 into small technology companies.</p>
+
+	<p class="question">Where's the money, Lebowski?</p> 
+	<p>We raised $1,000,000 from 50 NYC-area Founders.</p>
+
+	<p class="question">Why isn't this like every other Venture Capital Fund?</p> 
+	<p>We're going to reinvest 50% of the fund profits back into the fund. The hope is that we never run out of capital, and we can keep investing forever.
+
+	<p>We'll only ever raise one fund, and it never ends, which means no artificial pressure on founders to return capital to us within some arbitrary period of time.</p>
+
+	<p class="question">Do you take a management fee?</p> 
+	<p>No, this is a side project. We're all involved in or running early stage technology companies.</p>
+
+
+	</div>
+</div>
+</body>
+</html>

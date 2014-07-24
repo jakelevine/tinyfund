@@ -4,4 +4,17 @@ class StaticPagesController < ApplicationController
 
 	end
 
+	def faq
+
+	end
+
+	def team
+
+	end
+
+	def investors
+
+	end
+
+
 end
